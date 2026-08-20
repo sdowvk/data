@@ -1,14 +1,56 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "desktop": {
+    "icon": {
+      "url": "https://www.viking.com/content/dam/viking/icons/info-circle.svg",
+      "color": "#3D3D3D"
+    },
+    "title": {
+      "html": "<strong>Important Travel Update</strong>",
+      "plaintext": "Important Travel Update"
+    },
+    "description": {
+      "html": "<p>Please review the latest information regarding your upcoming voyage.</p>",
+      "plaintext": "Please review the latest information regarding your upcoming voyage."
+    },
+    "cta": {
+      "url": "https://www.viking.com/my-trip",
+      "text": "Learn More",
+      "text_color": "#FFFFFF",
+      "button": true,
+      "button_color": "#003B5C"
+    },
+    "bg_color": "#F5F5F5",
+    "override": {
+      "variant": "",
+      "html": "",
+      "height": ""
+    }
+  },
+  "mobile": {
+    "icon": {
+      "url": "https://www.viking.com/content/dam/viking/icons/info-circle.svg",
+      "color": "#3D3D3D"
+    },
+    "title": {
+      "html": "<strong>Important Travel Update</strong>",
+      "plaintext": "Important Travel Update"
+    },
+    "description": {
+      "html": "<p>Please review the latest information regarding your upcoming voyage.</p>",
+      "plaintext": "Please review the latest information regarding your upcoming voyage."
+    },
+    "cta": {
+      "url": "https://www.viking.com/my-trip",
+      "text": "Learn More",
+      "text_color": "#FFFFFF",
+      "button": true,
+      "button_color": "#003B5C"
+    },
+    "bg_color": "#F5F5F5",
+    "override": {
+      "variant": "",
+      "html": "",
+      "height": ""
+    }
   }
 }
