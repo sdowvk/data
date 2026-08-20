@@ -1,76 +1,155 @@
 {
-  "banner" : {
-  "id": "low-water-banner",
-  "tracking": {
+  "default-banner": {
+    "id": "default-banner",
+    "tracking": {
+      "id": "default-banner",
+      "campaign": "default-call-us",
+      "placement": "header"
+    },
+    "override": {
+      "html": "",
+      "height": "",
+      "variant": "",
+      "classes": []
+    },
+    "desktop": {
+      "icon": {
+        "url": "https://placeholder.com/icon.svg",
+        "color": "",
+        "position": "none"
+      },
+      "title": {
+        "html": "<strong>Speak with a Viking agent</strong>",
+        "plaintext": "Speak with a Viking agent"
+      },
+      "description": {
+        "html": "to get expert help in building your journey.",
+        "plaintext": "to get expert help in building your journey."
+      },
+      "cta": {
+        "url": "tel:1-888-250-3417",
+        "text": "Call Now: 1-888-250-3417",
+        "target": "_self",
+        "style": "link",
+        "text_color": "",
+        "button_color": ""
+      },
+      "bg_color": "",
+      "override": {
+        "html": "",
+        "height": "",
+        "variant": "call-us-banner",
+        "classes": [
+          "call-us-banner",
+          "hidden-xs"
+        ]
+      }
+    },
+    "mobile": {
+      "icon": {
+        "url": "https://placeholder.com/icon.svg",
+        "color": "",
+        "position": "none"
+      },
+      "title": {
+        "html": "<strong>Speak with a Viking agent</strong>",
+        "plaintext": "Speak with a Viking agent"
+      },
+      "description": {
+        "html": "to get expert help in building your journey.",
+        "plaintext": "to get expert help in building your journey."
+      },
+      "cta": {
+        "url": "tel:1-888-250-3417",
+        "text": "Call Now: 1-888-250-3417",
+        "target": "_self",
+        "style": "link",
+        "text_color": "",
+        "button_color": ""
+      },
+      "bg_color": "",
+      "override": {
+        "html": "",
+        "height": "",
+        "variant": "call-us-banner",
+        "classes": [
+          "call-us-banner"
+        ]
+      }
+    }
+  },
+  "newsletter-signup-banner" : {
     "id": "low-water-banner",
-    "campaign": "river-low-water",
-    "placement": "header"
-  },
-  "override": {
-    "html": "",
-    "height": "",
-    "variant": "",
-    "classes": []
-  },
-  "desktop": {
-    "icon": {
-      "url": "https://www.viking.com/content/dam/viking/icons/info-circle.svg",
-      "color": "#3D3D3D",
-      "position": "left"
+    "tracking": {
+      "id": "low-water-banner",
+      "campaign": "river-low-water",
+      "placement": "header"
     },
-    "title": {
-      "html": "<strong>Important Travel Update</strong>",
-      "plaintext": "Important Travel Update"
-    },
-    "description": {
-      "html": "<p>Please review the latest information regarding your upcoming voyage.</p>",
-      "plaintext": "Please review the latest information regarding your upcoming voyage."
-    },
-    "cta": {
-      "url": "https://www.viking.com/my-trip",
-      "text": "Learn More",
-      "target": "_self",
-      "style": "button",
-      "text_color": "#FFFFFF",
-      "button_color": "#003B5C"
-    },
-    "bg_color": "#F5F5F5",
     "override": {
       "html": "",
       "height": "",
       "variant": "",
       "classes": []
+    },
+    "desktop": {
+      "icon": {
+        "url": "https://www.viking.com/content/dam/viking/icons/info-circle.svg",
+        "color": "#3D3D3D",
+        "position": "left"
+      },
+      "title": {
+        "html": "<strong>Important Travel Update</strong>",
+        "plaintext": "Important Travel Update"
+      },
+      "description": {
+        "html": "<p>Please review the latest information regarding your upcoming voyage.</p>",
+        "plaintext": "Please review the latest information regarding your upcoming voyage."
+      },
+      "cta": {
+        "url": "https://www.viking.com/my-trip",
+        "text": "Learn More",
+        "target": "_self",
+        "style": "button",
+        "text_color": "#FFFFFF",
+        "button_color": "#003B5C"
+      },
+      "bg_color": "#F5F5F5",
+      "override": {
+        "html": "",
+        "height": "",
+        "variant": "",
+        "classes": []
+      }
+    },
+    "mobile": {
+      "icon": {
+        "url": "https://www.viking.com/content/dam/viking/icons/info-circle.svg",
+        "color": "#3D3D3D",
+        "position": "left"
+      },
+      "title": {
+        "html": "<strong>Important Travel Update</strong>",
+        "plaintext": "Important Travel Update"
+      },
+      "description": {
+        "html": "<p>Please review the latest information regarding your upcoming voyage.</p>",
+        "plaintext": "Please review the latest information regarding your upcoming voyage."
+      },
+      "cta": {
+        "url": "https://www.viking.com/my-trip",
+        "text": "Learn More",
+        "target": "_self",
+        "style": "button",
+        "text_color": "#FFFFFF",
+        "button_color": "#003B5C"
+      },
+      "bg_color": "#F5F5F5",
+      "override": {
+        "html": "",
+        "height": "",
+        "variant": "",
+        "classes": []
+      }
     }
-  },
-  "mobile": {
-    "icon": {
-      "url": "https://www.viking.com/content/dam/viking/icons/info-circle.svg",
-      "color": "#3D3D3D",
-      "position": "left"
-    },
-    "title": {
-      "html": "<strong>Important Travel Update</strong>",
-      "plaintext": "Important Travel Update"
-    },
-    "description": {
-      "html": "<p>Please review the latest information regarding your upcoming voyage.</p>",
-      "plaintext": "Please review the latest information regarding your upcoming voyage."
-    },
-    "cta": {
-      "url": "https://www.viking.com/my-trip",
-      "text": "Learn More",
-      "target": "_self",
-      "style": "button",
-      "text_color": "#FFFFFF",
-      "button_color": "#003B5C"
-    },
-    "bg_color": "#F5F5F5",
-    "override": {
-      "html": "",
-      "height": "",
-      "variant": "",
-      "classes": []
-    }
-  }
   }
 }
