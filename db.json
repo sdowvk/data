@@ -1,4 +1,5 @@
 {
+  "banner" : {
   "id": "low-water-banner",
   "tracking": {
     "id": "low-water-banner",
@@ -70,5 +71,6 @@
       "variant": "",
       "classes": []
     }
+  }
   }
 }
