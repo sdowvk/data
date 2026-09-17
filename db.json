@@ -5,8 +5,8 @@
       "name": "Homepage",
       "surfaces": [
         {
-          "id": "hero-banner",
-          "label": "Hero Banner"
+          "id": "fac-filters-wrapper",
+          "label": "FAC Filters"
         },
         {
           "id": "header-mega-menu",
