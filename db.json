@@ -15,7 +15,7 @@
           "selector": "#header-mega-menu"
         },
         {
-          "id": "promotion-banner",
+          "id": "promo-banner",
           "label": "Promotion Banner",
           "selector": ".promotion-banner.promotion-banner__container--image"
         }
@@ -36,7 +36,7 @@
           "selector": "#header-mega-menu"
         },
         {
-          "id": "promotion-banner",
+          "id": "promo-banner",
           "label": "Promotion Banner",
           "selector": ".promotion-banner.promotion-banner__container--image"
         }
