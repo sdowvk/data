@@ -6,11 +6,18 @@
       "surfaces": [
         {
           "id": "fac-filters-wrapper",
-          "label": "FAC Filters"
+          "label": "FAC Filters",
+          "selector": "#fac-filters-wrapper"
         },
         {
           "id": "header-mega-menu",
-          "label": "Mega Menu"
+          "label": "Mega Menu",
+          "selector": "#header-mega-menu"
+        },
+        {
+          "id": "promotion-banner",
+          "label": "Promotion Banner",
+          "selector": ".promotion-banner.promotion-banner__container--image"
         }
       ]
     },
@@ -20,11 +27,18 @@
       "surfaces": [
         {
           "id": "fac-filters-wrapper",
-          "label": "FAC Filters"
+          "label": "FAC Filters",
+          "selector": "#fac-filters-wrapper"
         },
         {
           "id": "header-mega-menu",
-          "label": "Mega Menu"
+          "label": "Mega Menu",
+          "selector": "#header-mega-menu"
+        },
+        {
+          "id": "promotion-banner",
+          "label": "Promotion Banner",
+          "selector": ".promotion-banner.promotion-banner__container--image"
         }
       ]
     }
